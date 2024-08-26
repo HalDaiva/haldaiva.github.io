@@ -1,0 +1,323 @@
+nav {
+    /*background-color: tomato;*/
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    font-weight: 600;
+    /*background-color: #1e1e1e;*/
+    transition: background-color 0.3s, border-bottom-color 0.3s;
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    z-index: 9;
+}
+nav img {
+    position: absolute;
+    top: 9px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navContent {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    transition: margin-top 0.4s;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+nav li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul a {
+    padding: 10px;
+    padding-inline: 0;
+    margin-inline: 20px;
+    transition: color 0.3s;
+}
+ul a:link, ul a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+ul a:hover, ul a:active {
+    color: white;
+}
+nav .signup {
+    background-color: white;
+    color: #171717 !important;
+    border-radius: 5px;
+    margin-right: 0;
+    padding-inline: 10px;
+    transition: background-color 0.3s;
+}
+nav .signup:hover{
+    background-color: darkgray;
+}
+nav .navMid {
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navMid ul {
+    justify-content: center;
+}
+
+.navMid a{
+    position: relative;
+}
+.navMid a::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+.navMid a:hover::after {
+    transform: scaleX(1);
+}
+body {
+    background-image: url("../img/indexBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+#blackBack {
+    background-color: rgba(0,0,0,0);
+    /*position: absolute;*/
+    width: 100%;
+    transition: background-color 0.8s;
+}
+.content {
+    width: 1200px;
+    margin-inline: auto;
+    /*margin-top: 100px;*/
+}
+
+.pGrey {
+    color: #b7b7b7;
+}
+
+.content h1 {
+    /*font-weight: 600;*/
+}
+
+.blockImg img {
+    pointer-events: none;
+}
+
+.light {
+    color: #ffc551;
+}
+
+.titleScreen {
+    height: 100vh;
+    /*padding-top: 20vw;*/
+    /*margin-top: 400px;*/
+}
+
+.cinematic {
+    /*margin-top: 400px;*/
+    /*margin-top: 20vh;*/
+    padding-top: 40vh;
+    font-size: 50pt;
+    font-weight: 800;
+}
+.explore {
+    margin-top: 15px;
+}
+.button:link, .button:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover, .button:active {
+    background-color: white;
+    color: #171717;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 15px;
+    border: white solid 2px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.composedUsing {
+    display: block;
+    margin-top: 0px;
+    /*margin-bottom: 40px;*/
+}
+.audioLib {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.madeFor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.madeFor .card {
+    cursor: default;
+    /*display: block;*/
+    margin-top: 80px;
+    position: relative;
+    height: 175px;
+    width: 175px;
+    background-color: #2a2a2a;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 175px;
+    background-size: cover;
+    transition: transform 0.3s;
+}
+
+.madeFor p {
+    margin-top: -6px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10pt;
+}
+
+.madeFor .card:hover, .madeFor .card:active {
+    transform: scale(1.1);
+}
+
+.madeFor div div {
+    width: 100%;
+    height: 100%;
+    background-color: #2a2a2a;
+    text-align: center;
+    position: absolute;
+    transition: background-color 0.3s;
+}
+
+.madeFor div:hover, .madeFor div:active {
+    background-color: rgba(0,0,0,0);
+}
+
+#textSec1 {
+    margin-inline: auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 800px;
+}
+
+
+.kontaktIns {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#textSec2 {
+    /*margin-inline: auto;*/
+    margin-top: 100px;
+    text-align: center;
+    /*width: 800px;*/
+}
+
+#textSec2 a:link, #textSec2 a:visited {
+    color: #ffc551;
+    text-decoration: none;
+}
+
+#textSec2 a:hover, #textSec2 a:active {
+    color: #ffc551;
+    text-decoration: underline;
+}
+
+.highlightContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.high {
+    width: 23%;
+    /*background-color: #ffc551;*/
+}
+
+.comission {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commText {
+    width: 45%;
+    /*margin-right: 200px;*/
+}
+
+.greyBack {
+    background-color: #272727;
+    margin-top: 100px;
+}
+
+.released {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numTxt {
+    display: flex;
+}
+
+.releasedNum {
+    /*margin-top: 0;*/
+    font-weight: 800;
+    font-size: 80pt;
+}
+
+.releasedTxt {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+.quote {
+    margin-top: 100px;
+    width: 785px;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 18pt;
+    position: relative;
+}
+
+.quoteMark {
+    position: absolute;
+}
+
+
+
+
+
+
+

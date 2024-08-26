@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/2875035409.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/design.css">
+<!--    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/design-1200.css">-->
+</head>
+<body>
+<nav id="navbar">
+    <div class="navContent" id="navContent">
+        <div class="signupContainer">
+
+            <a href=""><img src="img/logo3.png" alt="logo" height="27px" id="mainLogo"></a>
+        </div>
+
+        <div class="navMid">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Explore</a></li>
+            </ul>
+        </div>
+
+        <div class="signupContainer contactButton">
+            <div style="display: inline-block">
+                <a href="mailto:halilintardaiva@gmail.com" class="signup">Contact</a>
+            </div>
+        </div>
+        <div class="signupContainer burgerButton">
+            <div style="display: inline-block; height: 100%">
+                <button onclick="burger()"> <span class="material-symbols-outlined">menu</span>  </button>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="navBurger" id="navBurger">
+        <div class="content">
+            <ul>
+                <li><a href="mailto:halilintardaiva@gmail.com" class="signup">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Explore</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div id="zoom">
+    <div id="zoomContent">
+
+    </div>
+    <span class="explore button" id="zoomClose">Close preview</span>
+
+</div>
+
+<div id="blackBack">
+    <p style="color: rgba(0,0,0,0)">none</p>
+    <div class="content">
+
+        <div class="titleScreen">
+            <div class="cinematic">
+                <div class="cinematicContainer">
+                    <div class="halImgContainer">
+                        <img src="img/hal.png" alt="" class="halImg" width="500px">
+                    </div>
+                    <p class="pName">Halilintar Daiva Dirgantara</p>
+                    <div class="cinematicTitle">
+                        Welcome to my <br>
+                        <span class="highlight">graphic design</span><br>
+                        portofolio
+                    </div>
+                </div>
+            </div>
+
+            <p class="pGrey">A place where i display the result of my graphic design projects <span class="br"><br></span>
+            from a simpe 2D poster, to a 3D render art!</p>
+            <a href="#composed" class="explore button">Explore Now!</a>
+        </div>
+
+
+
+        <p class="composedUsing" id="composed">Software and Application i use for my graphic design projects:</p>
+        <div class="audioLib">
+            <a href="https://affinity.serif.com/en-us/designer/" target="_blank"><img src="img/afdesign.png"
+                                                                                      alt="Affinity Designer"
+                                                                                      height="42px"></a>
+            <a href="https://affinity.serif.com/en-us/photo/" target="_blank"><img src="img/afphoto.png"
+                                                                                      alt="Affinity Photo"
+                                                                                      height="42px"></a>
+            <a href="https://www.blender.org/" target="_blank"><img src="img/blender.png"
+                                                                                      alt="Blender" height="42px"></a>
+            <a href="https://procreate.com/" target="_blank"><img src="img/procreae.png"
+                                                                                      alt="Procreate" height="42px"></a>
+            <a href="https://www.figma.com/" target="_blank"><img src="img/figma.png" alt="Figma"
+                                                                                      height="42px"></a>
+        </div>
+        <div class="madeFor">
+            <div class="forMovie card" style="background-image: url('img/imgPoster.jpg')"><a href="#poster"><div>POSTER</div></a></div>
+            <div class="forGame card" style="background-image: url('img/imgInsta.jpg')"><a href="#feed"><div>INSTA FEED</div></a></div>
+            <div class="forProject card" style="background-image: url('img/imgWebsite.jpg')"><a href="#website"><div>WEBSITE UI</div></a></div>
+            <div class="forCommercial card" style="background-image: url('img/imgArt.jpg')"><a href="#digital"><div>DIGITAL ART</div></a></div>
+            <div class="forTV card" style="background-image: url('img/img3d.jpg')"><a href="#three"><div>3D ART</div></a></div>
+            <div class="forOther card" style="background-image: url('img/imgOther.jpg')"><a href="#other"><div>OTHER</div></a></div>
+        </div>
+        <hr style="margin-top: 100px; border-color: gray; width: 50%">
+
+        <div id="textSec1">
+            <h1 class="write">Why do i do graphic design?</h1>
+            <p class="pGrey fade" id="type">I mostly do graphic design just for hobby and fun. But, a lot of the time i also do it for competition, my organization,
+                and collage project. I've been having graphic design as my hobby since junior high school.</p>
+        </div>
+
+        <div class="kontaktIns">
+            <img src="img/laptop.png" alt="Piano Roll" width="90%" class="fade">
+
+        </div>
+
+    </div>
+    <div class="greyBack" id="poster">
+        <div class="shade">
+
+        </div>
+        <div class="content">
+            <h1 class="fade">POSTER</h1>
+            <div id="posterContent">
+<!--                <img src="img/poster/00.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/01.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/02.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/03.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/04.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/05.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/06.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/11.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/08.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/09.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/07.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/10.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/12.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/13.png" alt="" height="350px" class="design">-->
+<!--                <img src="img/poster/14.png" alt="" height="350px" class="design">-->
+            </div>
+            <p class="note">Note: while all the posters here are designed by me, there are a few 3rd party
+                elements that i use (most of the elements are still designed by me)</p>
+        </div>
+    </div>
+    <div id="feed">
+        <div class="content">
+            <h1 class="fade">INSTAGRAM FEED</h1>
+            <h2 class="fade">Instagram feeds that are designed by me</h2>
+
+            <div class="twoGrid">
+                <div id="ig1">
+                    <p class="fade igHandle">@mmd_filkom_41_gubugklakah</p>
+                    <img class="fade" src="img/feed/mmd.png" alt="">
+                    <div class="buttonContainer">
+                        <a href="https://www.instagram.com/mmd_filkom_41_gubugklakah" class="btn-white" target="_blank">See full</a>
+                    </div>
+                </div
+                ><div id="ig2">
+                    <p class="fade igHandle">@phce_optiik (2023 only)</p>
+                    <img class="fade" src="img/feed/phce.png" alt="">
+                <div class="buttonContainer">
+                <a href="https://www.instagram.com/phce_optiik?igsh=YXB4dWtrcTRzN3li" class="btn-white" target="_blank">See full</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="greyBack" id="website">
+        <div class="shade">
+
+        </div>
+        <div class="content website-content">
+            <h1 class="fade">WEBSITE</h1>
+            <h2 class="fade">Scroll inside the <span id="frameLaptop">laptop</span><span id="frameTablet">tablet</span><span id="framePhone">phone</span>!</h2>
+            <div class="laptop">
+                <img src="img/website/laptopFrame.png" class="frame" alt="" width="100%">
+                <div id="wrap">
+                    <iframe src="https://haldaiva.github.io/KerjaKita/" frameBorder="0" id="frame"></iframe>
+                </div>
+            </div>
+
+            <div class="content">
+                <p class="note">Note: This is a collaboration project, which means not all the pages are designed by me. I only designed
+                    the home page, article, and when you click one of the job application. The rest are designed by my friends which listed
+                    in "Tentang Kami" inside "Tim Pengembang"</p>
+            </div>
+            <div class="fade">
+                <h1 style="margin-top: 100px"><span class="highlightStatic write slow">Fun fact!</span></h1>
+                <p>This website about my portofolio that you currently visit is <span class="br"> <br> </span>
+                    also designed and coded by me</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="digital">
+        <div class="content">
+            <h1>DIGITAL ART</h1>
+            <div id="artContent">
+<!--                <img src="img/art/00.png" alt="" height="340px" class="design">-->
+<!--                <img src="img/art/01.png" alt="" height="340px" class="design">-->
+<!--                <img src="img/art/02.png" alt="" height="340px" class="design">-->
+<!--                <img src="img/art/03.png" alt="" height="340px" class="design">-->
+            </div>
+<!--            <p class="note">Note: while all the posters here are designed by me, there are a few 3rd party-->
+<!--                elements that i use (most of the elements are still designed by me)</p>-->
+        </div>
+    </div>
+
+    <div id="three">
+        <div class="shade2">
+
+        </div>
+        <div class="threeContent fade">
+            <h1>3D ART</h1>
+            <p>This render is modelled after Nogizaka Station in Minato, Tokyo. <span class="br"> <br> </span>
+            See it from another angle on my post <a href="https://www.instagram.com/p/C79hMb4vMj-/?igsh=MXhoeWo2cG5nNjN5NA==" target="_blank">here</a>.</p>
+            <span class="note">Note: Currenty, this is the only 3D art
+                i have made. There'll be more soon!</span>
+        </div>
+    </div>
+
+    <div id="other">
+        <div class="shade">
+
+        </div>
+        <div class="content">
+            <h1>OTHER DESIGN</h1>
+            <div class="otherContent" id="otherContent">
+
+            </div>
+            <p class="note">Note: Designs in this part are influenced a lot by 3rd party icons and elements</p>
+        </div>
+    </div>
+
+    <hr style="margin-top: 100px; border-color: gray; width: 50%; visibility: hidden" id="musicEntry">
+
+    <div id="exploreMusic">
+
+        <div class="titleScreen fade">
+            <div class="cinematic">
+                <div class="cinematicContainer">
+                    <div class="cinematicTitle">
+                        Coming soon, <br>
+                        my other portofolio: <br>
+                        <span class="highlight write slow">Music!</span><br>
+                    </div>
+                </div>
+            </div>
+
+            <p class="pGrey">A place where i display the result of my music projects <br>
+                from a piano sheet music, to a whole orchestra soundtrack!</p>
+<!--            <a href="#" class="explore button">Explore Now!</a>-->
+        </div>
+    </div>
+
+    <div class="footer greyBack">
+        <div class="content">
+            <div class="footerTop">
+                <div class="footerBox">
+                    <img src="img/logo3.png" height="35px">
+                    <p class="note">For any question regarding this website or myself, please click the contact button in the navigation
+                        bar above or you can send a direct email to halilintardaiva@gmail.com. <br><br>
+                        Alternatively, you can also contact me through one of the social media listed below the footer</p>
+                </div>
+                <div class="footerList">
+                    <ul>
+                        <li>Portofolio</li>
+                        <li>Program</li>
+                        <li>Design</li>
+                        <li>Music</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <ul>
+                        <li>Program</li>
+                        <li>Website</li>
+                        <li>Desktop App</li>
+                        <li>Mobile App</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <ul>
+                        <li>Design</li>
+                        <li>Poster</li>
+                        <li>Instagram Feed</li>
+                        <li>Website UI</li>
+                        <li>Digital Art</li>
+                        <li>3D Art</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <ul>
+                        <li>Music</li>
+                        <li>Sheet Music</li>
+                        <li>Tracks</li>
+                        <li>Album</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <div class="footerBottom">
+                <span class="note">© 2024 Halilintar Daiva / All Right Reserved</span>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/halilintardaiva" target="_blank"><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/ffffff/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+                    <a href="https://twitter.com/Flakefoxgard" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" alt="twitter"/></a>
+                    <a href="https://line.me/ti/p/e0If-LdWTE" target="_blank"><img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/ffffff/line-me.png" alt="line-me"/></a>
+                    <a href="https://discord.com/users/608593216115179560" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png" alt="discord-logo"/></a>
+                    <a href="https://www.linkedin.com/in/halilintar-daiva-5b839629a" target="_blank"> <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="linkedin"/></a>
+<!--                    <i class="fa-brands fa-square-instagram"></i>-->
+<!--                    <i class="fa-brands fa-twitter"></i>-->
+<!--                    <i class="fa-brands fa-line"></i>-->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<script>
+    window.onscroll = function () {navScroll(); backScroll()}
+    var prevScrollpos = window.pageYOffset;
+
+    // OTHER DESIGN CONTENTS
+    const otherContent = document.getElementById('otherContent');
+    for (let i = 0; i <= 29; i++) {
+        const number = i.toString().padStart(2, '0');
+        const img = document.createElement('img');
+        img.src = `img/other/preview/${number}_1.png`;
+        img.alt = '';
+        img.classList.add('design');
+        img.classList.add('fade');
+        otherContent.appendChild(img);
+    }
+
+    // POSTER CONTENTS
+    const posterContent = document.getElementById('posterContent');
+    for (let i = 0; i <= 14; i++) {
+        const number = i.toString().padStart(2, '0');
+        const img = document.createElement('img');
+        img.src = `img/poster/preview/${number}_1.webp`;
+        img.alt = '';
+        img.classList.add('design');
+        img.classList.add('fade');
+        posterContent.appendChild(img);
+    }
+
+    // DIGITAL ART CONTENTS
+    const artContent = document.getElementById('artContent');
+    for (let i = 0; i <= 3; i++) {
+        const number = i.toString().padStart(2, '0');
+        const img = document.createElement('img');
+        img.src = `img/art/preview/${number}_1.png`;
+        img.alt = '';
+        img.classList.add('design');
+        img.classList.add('fade');
+        artContent.appendChild(img);
+    }
+
+    originalText();
+
+    function originalText() {
+        const p = document.querySelectorAll("p");
+        const h1 = document.querySelectorAll("h1");
+        const write = document.querySelectorAll(".write");
+
+        // p.forEach(element => {
+        //     element.setAttribute("originalText", element.innerHTML);
+        // })
+        write.forEach(element => {
+            element.setAttribute("originalText", element.innerHTML);
+        })
+        write.forEach(element => {
+            // element.innerHTML = "";
+            element.setAttribute("typingStatus", "empty");
+        })
+        // setTimeout(() => {
+        //     write.forEach(element => {
+        //         element.innerHTML = "";
+        //     })
+        // }, 1);
+
+    }
+
+
+
+    function navScroll() {
+        var burgerDisplay = document.querySelector("#navBurger").style.display;
+        if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("navContent").style.marginTop = "0";
+            document.getElementById("navbar").style.backgroundColor = "#181818";
+            document.getElementById("navbar").style.borderBottomColor = "#3f3f3f";
+            document.getElementById("mainLogo").style.height = "20px";
+            document.getElementById("mainLogo").style.marginTop = "0";
+
+            // if (document.querySelector("#zoom").style.display == "none"){
+                var currentScrollPos = window.pageYOffset;
+
+                if ((document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) && burgerDisplay !== "block"){
+                    if (prevScrollpos > currentScrollPos) {
+                        document.querySelector("nav").style.top = "0";
+                    } else {
+                        document.querySelector("nav").style.top = "-80px";
+                    }
+                } else {
+                    document.querySelector("nav").style.top = "0";
+                }
+
+                prevScrollpos = currentScrollPos;
+            // }
+
+
+
+        } else {
+            // var burgerDisplay = document.querySelector("#navBurger").style.display;
+            if (burgerDisplay !== "block") {
+                document.getElementById("navContent").style.marginTop = "30px";
+                document.getElementById("navbar").style.backgroundColor = "rgba(0,0,0,0)";
+                document.getElementById("navbar").style.borderColor = "rgba(0,0,0,0)";
+                document.getElementById("mainLogo").style.height = "27px";
+                document.getElementById("mainLogo").style.marginTop = "-4px";
+            }
+
+        }
+    }
+    function backScroll() {
+        // if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        //     document.getElementById("blackBack").style.backgroundColor = "#111111";
+        // } else {
+        //     document.getElementById("blackBack").style.backgroundColor = "rgba(0,0,0,0)";
+        //
+        // }
+    }
+
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //
+    // }
+
+    // Run the `allInView` function initially and on window scroll
+    allInView();
+    window.addEventListener('scroll', allInView);
+
+    function isScrolledIntoView(elem) {
+        const docViewTop = window.scrollY;
+        const docViewBottom = docViewTop + window.innerHeight;
+
+        const elemTop = elem.getBoundingClientRect().top + window.scrollY;
+        const elemBottom = elemTop + elem.offsetHeight;
+
+        return docViewBottom >= elemTop;
+    }
+
+    function isScrolledALittleIntoView(elem) {
+        const docViewTop = window.scrollY;
+        const docViewBottom = docViewTop + window.innerHeight;
+
+        const elemTop = elem.getBoundingClientRect().top + window.scrollY/* + 200*/;
+        const elemBottom = elemTop + elem.offsetHeight;
+
+        return docViewBottom >= elemTop + ((elemBottom - elemTop) / 3);
+    }
+
+    function isScrolledFullyIntoView(elem) {
+        const docViewTop = window.scrollY;
+        const docViewBottom = docViewTop + window.innerHeight;
+
+        const elemTop = elem.getBoundingClientRect().top + window.scrollY/* + 200*/;
+        const elemBottom = elemTop + elem.offsetHeight;
+
+        return docViewBottom >= elemBottom;
+    }
+
+    function isScrolledOutOfView(elem) {
+        const docViewTop = window.scrollY;
+        const docViewBottom = docViewTop + window.innerHeight;
+
+        const elemTop = elem.getBoundingClientRect().top + window.scrollY;
+        const elemBottom = elemTop + elem.offsetHeight;
+
+        return docViewBottom <= elemTop;
+    }
+
+    function allInView() {
+        const music = document.querySelector("#musicEntry");
+        const why = document.querySelector("#textSec1");
+        const fade = document.querySelectorAll(".fade");
+        const write = document.querySelectorAll(".write");
+
+        if (isScrolledOutOfView(why)) document.getElementById("blackBack").style.backgroundColor = "black";
+        if (isScrolledIntoView(why) && isScrolledOutOfView(music)) {
+            document.getElementById("blackBack").style.backgroundColor = "#111111";
+
+        }
+        if (isScrolledIntoView(music)) document.getElementById("blackBack").style.backgroundColor = "black";
+
+        //FADE
+        fade.forEach(element => {
+            if (isScrolledALittleIntoView(element)) {
+                element.style.opacity = "100%";
+            }
+            if (isScrolledOutOfView(element)) {
+                element.style.opacity = "0";
+            }
+        })
+
+        write.forEach(element => {
+
+            const text = element.getAttribute("originalText");
+
+
+            if (isScrolledFullyIntoView(element)) {
+                if (element.getAttribute("typingStatus") === "empty") {
+                    if (element.classList.contains("slow")) {
+                        typeWriter(element, text, 100);
+
+                    } else {
+                        typeWriter(element, text, 45);
+                    }
+
+                }
+                setTimeout(() => {
+
+                    element.setAttribute("typingStatus", "typing");
+                }, 1)
+            }
+            if (isScrolledOutOfView(element)) {
+                element.innerHTML = "";
+                element.setAttribute("typingStatus", "empty");
+            }
+
+
+
+
+        })
+
+    }
+
+    function typeWriter(element, text, speed) {
+        // alert("in");
+        element.innerHTML = "";
+        var i = 0;
+        type();
+        function type() {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(type, speed);
+            }
+        }
+
+    }
+
+    // var burgerClosed = true;
+
+
+    function burger() {
+        var burgerDisplay = document.querySelector("#navBurger").style.display;
+
+        if (burgerDisplay === "" || burgerDisplay === "none") {
+            // BURGER OPENED
+            document.querySelector("nav").style.height = "500px";
+            document.querySelector("#navBurger").style.display = "block";
+            setTimeout(function () {
+                document.querySelector("#navBurger").style.opacity = "100%";
+            }, 200);
+            // burgerClosed = false;
+            document.getElementById("navContent").style.marginTop = "0";
+            document.getElementById("navbar").style.backgroundColor = "#181818";
+            document.getElementById("navbar").style.borderBottomColor = "#3f3f3f";
+            document.getElementById("mainLogo").style.height = "20px";
+            document.getElementById("mainLogo").style.marginTop = "0";
+        } else {
+            // BURGER CLOSED
+            document.querySelector("#navBurger").style.opacity = "0%";
+            setTimeout(function () {
+                document.querySelector("nav").style.height = "78px";
+                document.querySelector("#navBurger").style.display = "none";
+            }, 200);
+
+            if ((document.body.scrollTop <= 5 && document.documentElement.scrollTop <= 5)) {
+                document.getElementById("navContent").style.marginTop = "30px";
+                document.getElementById("navbar").style.backgroundColor = "rgba(0,0,0,0)";
+                document.getElementById("navbar").style.borderColor = "rgba(0,0,0,0)";
+                document.getElementById("mainLogo").style.height = "27px";
+                document.getElementById("mainLogo").style.marginTop = "-4px";
+            }
+            // burgerClosed = true;
+        }
+    }
+
+
+    var design = document.getElementsByClassName("design");
+
+    var designClick = function() {
+        document.querySelector("#zoom").style.display = "flex";
+        setTimeout(() => {
+            document.querySelector("#zoom").style.opacity = "1";
+        },50);
+        var attribute = this.getAttribute("src");
+        // attribute.replace(/\/preview|/_1/g, '');
+        const regex = /\/preview|_1/g;
+        // Replace matched patterns with the replacement string
+
+        // alert(attribute.replace(regex, ''));
+        document.querySelector("#zoomContent").style.backgroundImage = 'url("' + attribute.replace(regex, '') + '")';
+        // alert(attribute.charAt(attribute.length - 8) + "" + attribute.charAt(attribute.length - 7));
+        document.querySelector("nav").style.top = "-80px";
+        document.querySelector("body").classList.add("stop-scrolling");
+        // alert(attribute);
+    };
+
+    for (var i = 0; i < design.length; i++) {
+        design[i].addEventListener('click', designClick, false);
+    }
+
+    var closeZoom = function () {
+        document.querySelector("#zoom").style.opacity = "0";
+        setTimeout(() => {
+            document.querySelector("#zoom").style.display = "none";
+        },400);
+
+
+        document.querySelector("body").classList.remove("stop-scrolling");
+    };
+
+    document.querySelector("#zoom").addEventListener('click', closeZoom, false)
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

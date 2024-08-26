@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #171717;
+}
+p, .note {
+    line-height: 20pt;
+    font-size: 13pt;
+}
