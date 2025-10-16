@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Foxgard Studio.iml" filepath="$PROJECT_DIR$/Foxgard Studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archive/Foxgard Studio.iml" filepath="$PROJECT_DIR$/archive/Foxgard Studio.iml" />
     </modules>
   </component>
 </project>
